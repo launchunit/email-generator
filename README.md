@@ -1,4 +1,5 @@
 # email-generator
+Generate email combinations based on person name.
 
 ----
 
