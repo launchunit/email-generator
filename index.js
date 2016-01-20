@@ -6,7 +6,7 @@
  * @private
  */
 const _ = require('lodash'),
-  nameParser = require('./lib/name_parser')();
+  nameParser = require('./lib/name_parser');
 
 
 const RULES = [
