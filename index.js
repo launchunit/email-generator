@@ -32,6 +32,14 @@ const RULES = [
   '${name.lastNameInitial}${name.firstName}',
   '${name.lastNameInitial}.${name.firstName}',
   '${name.lastNameInitial}_${name.firstName}',
+
+  '${name.lastName}${name.firstNameInitial}',
+  '${name.lastName}0${name.firstNameInitial}',
+  '${name.lastName}_${name.firstNameInitial}',
+
+  '${name.firstNameInitial}.${name.lastNameInitial}',
+  '${name.firstNameInitial}_${name.lastNameInitial}',
+  '${name.firstName}.${name.middleNameInitial}.${name.lastName}',
 ];
 
 function ruleFn(ruleStr, parsedName) {
