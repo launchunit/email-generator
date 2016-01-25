@@ -2,7 +2,7 @@
 const test = require('ava');
 
 // Init Things
-const Generator = require('../');
+const Generator = require('../').build;
 
 
 test('Generate Result Object', t => {

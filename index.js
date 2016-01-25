@@ -55,7 +55,7 @@ function ruleFn(ruleStr, parsedName) {
  *
  * @public
  */
-module.exports = name => {
+exports.build = name => {
 
   const parsedName = nameParser.parse(name);
 
@@ -79,3 +79,12 @@ module.exports = name => {
     emails: emails
   };
 };
+
+
+/**
+ * @params ruleStr {String}
+ * @params name {Object}
+ *
+ * @public
+ */
+exports.ruleFn = ruleFn;

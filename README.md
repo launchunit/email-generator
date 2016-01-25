@@ -6,7 +6,7 @@ Generate email combinations based on person name.
 ## Usage
 
 ```js
-const Generator = require('email-generator');
+const Generator = require('email-generator').build;
 
 const res = Generator('Karan Sakhuja');
 console.log(res);
